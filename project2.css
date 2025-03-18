@@ -1,0 +1,139 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+    background-color:rgb(234, 22, 18);
+    padding: 30px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style:groove;
+    border-color: black;
+    border-width: 3px;
+   border-radius: 20px;
+}
+nav{
+    background-color: black;
+   overflow: hidden;
+   
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+   float: left;
+    padding: 15px;
+    font-size: 21px;
+}
+a:hover{
+    color: antiquewhite;
+}
+img{
+    padding-left: 300px;
+}
+p{
+    font-size: 22px;
+}
+h2{
+    font-size: 40px;
+    background-color: rgba(247, 189, 148, 0.726);
+}
+ .para{
+    margin: 40px;
+    font-style: italic;
+    
+ }
+ .paragraph{
+    font-style: italic;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+ }
+ ul{
+    background-color:rgba(147, 222, 235, 0.182);
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right:80px;
+    border-style:dotted;
+    border-width: 0px;
+ }
+ ul:hover{
+    border-color:black;
+    border-width:2px;
+ }
+ .abc{
+    float: right;
+    padding-right: 120px;
+    width: 650px;  
+ }
+ .def{
+    float: left;
+    padding: 10px;
+    width: 600px;
+    padding-right: 100px;
+ }
+ .new{
+    float: left;
+    padding: 10px;
+    width: 800px;
+    padding-right: 100px;
+   
+ }
+ .mew{
+   float: right;
+   width: 800px;
+   height: 600px;
+   padding-right: 100px;
+ }
+ .maindiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    margin: 20px;
+    background-color: antiquewhite;
+   
+ }
+ .maindiv>div{
+    height: 600px;
+    width: 400px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 20px;
+   
+ }
+ div:hover{
+    border-color:black;
+    border-width: 3px;
+ }
+ h3{
+    font-style: italic;
+    font-size: 30px;
+   text-align: center;
+   margin-top: 120px;
+   margin-bottom: 50px;
+   background-color:rgba(236, 79, 236, 0.479);
+   border-style: double;
+   border-radius: 30px;
+   border-width: 6px;
+   color: rgb(4, 40, 107);
+ }
+
+ .square{
+    width: 400px;
+    height: 250px;
+ }
+ .image{
+    width: 400px;
+    height: 250px;
+    padding-left: 0px;
+ }
+ h4{
+    text-align: center;
+    background-color:rgba(217, 22, 61, 0.771);
+    color: white;
+    font-size: 25px;
+    padding: 0px;
+ }
+ .p{
+    text-decoration: underline;
+    color: brown;
+ }

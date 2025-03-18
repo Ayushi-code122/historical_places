@@ -1,0 +1,118 @@
+nav{
+    background-color: black;
+   overflow: hidden;
+   
+}
+.a{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+   float: left;
+    padding: 15px;
+    font-size: 21px;
+}
+.a:hover{
+    color: antiquewhite;
+}
+.maindiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.maindiv>div{
+    border-style: solid;
+    border-width: 3px;
+}
+h2{
+    text-align: center;
+}
+img{
+    width: 600px;
+}
+p{
+    font-size: 22px;
+}
+#abc{
+    text-align: center;
+}
+input[type=submit]{
+    font-size: 22px;
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    background-color:rgb(234, 22, 18);
+    padding: 30px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style:groove;
+    border-color: black;
+    border-width: 3px;
+   border-radius: 20px;
+}
+h3{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(222, 241, 241);
+    color: rgb(8, 133, 241);
+    padding: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 20px;
+}
+#red{
+    background-color: antiquewhite;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+footer{
+ background-color: rgba(15, 168, 224, 0.291);
+ overflow: hidden;
+ padding-left: 30px;
+}
+label,i{
+   margin-left: 40px;
+    font-size: 23px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.xyz{
+    background-image: linear-gradient( #833AB4, #405DE6,#5851DB,
+    #E1306C,
+    #FD1D1D,
+   #F56040,
+    #F77737,
+    #FCAF45,
+    #FFDC80);
+    background-clip: text;
+    color: transparent;
+}
+.b{
+    background-image: linear-gradient(#4267B2,#898F9C,#000000);
+    background-clip: text;
+    color: transparent;
+}
+.c{
+   color: #405DE6;
+}
+.d{
+    color: #FD1D1D;
+}
+.e{
+    color: blue;
+}
+.naam{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 20px;
+    line-height: 2;
+    font-style: italic;
+}
+.line{
+    text-decoration: underline;
+}

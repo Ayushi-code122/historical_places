@@ -1,0 +1,91 @@
+.box{
+    height: 2400px;
+    width: 1200px;
+    margin-left: 95px;
+  background-color: rgba(237, 225, 225, 0.339);
+  font-family:'Times New Roman', Times, serif;
+}
+nav{
+background-color: black;
+overflow: hidden;
+
+}
+a{
+color: aliceblue;
+text-decoration: none;
+text-align: center;
+float: left;
+padding: 15px;
+font-size: 21px;
+}
+a:hover{
+color: antiquewhite;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    background-color:rgb(234, 22, 18);
+    padding: 30px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style:groove;
+    border-color: black;
+    border-width: 3px;
+   border-radius: 20px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    background-color:cornsilk;
+    color:rgb(89, 45, 89);
+   font-style: italic;
+    padding: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 30px;
+    border-style: dotted;
+}
+h3{
+    font-size: 21px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.cont{
+    padding:40px ;
+   
+}
+input[type=text],input[type=date],input[type=email],input[type=number],select{
+    width: 100%;
+    padding: 12px;
+    background-color: rgba(240, 248, 255, 0.459);
+    border-color: rgb(239, 234, 227);
+}
+p{
+    font-size: 18px;
+}
+h4{
+    text-align: center;
+    font-size: 35px;
+   
+}
+h5{
+    font-size: 23px;
+    text-align: center;
+}
+fieldset{
+    background-color: rgba(240, 248, 255, 0.459) ;
+}
+input[type=submit]{
+    background-color: rgb(8, 122, 33);
+    color: white;
+   padding: 10px;
+   font-size: 22px;
+}
+input[type=submit]:hover{
+   background-color: rgba(38, 125, 96, 0.575);
+}
+#my{
+    text-align: center;
+}

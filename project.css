@@ -1,0 +1,46 @@
+header{
+    font-size: 40px;
+    background-color: cadetblue;
+    color: bisque;
+    text-align: center;
+    padding: 30px;
+}
+nav{
+    background-color: black;
+   overflow: hidden;
+   
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+   float: left;
+    padding: 15px;
+    font-size: 21px;
+}
+a:hover{
+    color: antiquewhite;
+}
+img{
+  padding-left: 450px;
+}
+
+.maindiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* height: 400px;
+    width: 400px; */
+   /* border-color: black; 
+  border-style: solid; */
+  font-size: 20px;
+  padding: 10px;
+  background-color:aliceblue
+}
+.dec{
+    background-color:rgb(211, 241, 235);
+    font-size: 25px;
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+}
